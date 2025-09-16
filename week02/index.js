@@ -7,5 +7,18 @@ const gretter = (myArray, counter) => {
     }
 };
 
+console.log("Exercise 1:");
 gretter(["Randy Savage", "Ric Flair", "Hulk Hogan"], 3)
+
+// Ex 2
+const capitalize = str => {
+    const [firstLetter, ...rest] = str;
+
+    return `${firstLetter.toUpperCase()}${rest.join("")}`;
+}
+
+console.log("\nExercise 2:");
+console.log(capitalize("fooBar"));
+console.log(capitalize("nodeJs"));
+
 
