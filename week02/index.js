@@ -22,9 +22,22 @@ console.log(capitalize("fooBar"));
 console.log(capitalize("nodeJs"));
 
 // Ex 3
-console.log("\nExercise 3:");
 const colors = ["red", "green", "blue"];
 
 const capitalizedColors = () => colors.map(color => capitalize(color))
+
+console.log("\nExercise 3:");
 console.log(capitalizedColors());
 
+// Ex 4
+const values = [1, 60, 34, 30, 20, 5];
+
+const filterLessThan20 = () => values.filter(number => number < 20);
+
+console.log("\nExercise 4:");
+console.log(filterLessThan20());
+
+// Ex 5
+const array = [1, 2, 3, 4]
+
+const calculateSum = 
