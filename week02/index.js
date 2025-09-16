@@ -40,4 +40,9 @@ console.log(filterLessThan20());
 // Ex 5
 const array = [1, 2, 3, 4]
 
-const calculateSum = 
+const calculateSum = () => array.reduce((acc, number) => acc + number, 0);
+const calculateProduct = () => array.reduce((acc, number) => acc * number, 1);
+
+console.log("\nExercise 5:");
+console.log(calculateSum());
+console.log(calculateProduct());
