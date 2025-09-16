@@ -21,4 +21,10 @@ console.log("\nExercise 2:");
 console.log(capitalize("fooBar"));
 console.log(capitalize("nodeJs"));
 
+// Ex 3
+console.log("\nExercise 3:");
+const colors = ["red", "green", "blue"];
+
+const capitalizedColors = () => colors.map(color => capitalize(color))
+console.log(capitalizedColors());
 
